@@ -1,0 +1,429 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background: rgb(199 214 213);
+    scroll-behavior: smooth;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #07c2cc;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.skinny-line {
+    width: 100vw;
+    height: 2px;
+    background: #2adae9;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.header {
+    width: 100vw;
+    height: auto;
+    background: url("../img/top_bg.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: 0 5px 55px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0 5px 55px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0 5px 55px 7px rgba(0, 0, 0, 0.71);
+    padding: 1px 20px 40px 20px;
+    position: sticky;
+    top: 2px;
+    margin-top: -43px;
+}
+
+.header h1 {
+    color: #FFFFFF;
+    font-size: 4em;
+}
+
+.header p {
+    color: #FFFFFF;
+    font-size: 1.7em;
+}
+
+.header .main-menu {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .main-menu a {
+    width: 110px;
+    padding: 10px;
+    background: #07c2cc;
+    text-decoration: none;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.header .main-menu a:hover {
+    background: darkcyan;
+}
+
+.main-content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: #45464a;
+}
+
+.main-content .content-wrapper {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+.main-content .content-wrapper .section {
+    width: 65%;
+    margin-left: -20%;
+    margin-right: auto;
+    float: left;
+    padding-top: 60px;
+    font-size: 23px;
+}
+
+.main-content .content-wrapper .portrait {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    border-radius: 10px;
+    padding-top: 60px;
+}
+
+body div.main-content div div.portrait img {
+    border-radius: 10px;
+    box-shadow: #00000052 5px 6px 10px;
+}
+
+.main-content .education {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.main-content .education .education-content {
+    margin-left: 5%;
+    margin-right: auto;
+    font-size: 22px;
+}
+
+.main-content .education .education-content div {
+    height: 100px;
+    box-shadow: #00000052 5px 6px 10px;
+    border-radius: 10px;
+    background: #f7f7f7a6;
+}
+
+.main-content .education .education-content div span {
+    float: left;
+    margin-top: 22px;
+    width: 63%;
+    padding-left: 10px;
+}
+
+.main-content .education .education-content div span a {
+    text-decoration: none;
+    color: #07c2cc;
+}
+
+.main-content .education .education-content div span a:hover {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.main-content .education .education-content div p {
+    width: 100%;
+}
+
+.main-content .education .education-content div span:first-of-type {
+    width: 33%;
+}
+
+.main-content .skill .skill-content {
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: auto;
+    font-size: 22px;
+}
+
+.main-content .skill .skill-content ul {
+    width: 100%;
+    padding: 0;
+}
+
+.main-content .skill .skill-content ul li {
+    list-style: none;
+    width: 33%;
+    float: left;
+    display: block;
+    min-height: 35px;
+}
+
+.main-content .skill .skill-content ul li img {
+    margin-right: 5px;
+
+}
+
+.main-content .skill .skill-content .logo {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.main-content .skill .skill-content .logo .logo-wrapper {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.main-content .skill .skill-content .logo .logo-wrapper img:nth-child(2) {
+    padding-bottom: 10px;
+}
+
+.main-content .languages {
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: auto;
+    font-size: 22px;
+}
+
+.main-content .languages table {
+    width: 90%;
+    background: #f7f7f7a6;
+}
+
+.main-content .languages tbody tr {
+    text-align: center;
+}
+
+.main-content .languages tbody tr:nth-child(1) {
+    width: 20%;
+}
+
+.main-content .languages tbody, .main-content .languages tbody td {
+    border: 1px solid #b9b9b9;
+    padding: 10px;
+}
+
+.main-content .languages tbody td img {
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
+.main-content #contact {
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: auto;
+    font-size: 22px;
+    width: 83%;
+}
+
+.main-content #contact .contactInfo, .main-content #contact .contactForm {
+    width: 50%;
+    float: left;
+    padding-bottom: 70px;
+}
+
+.main-content #contact .contactForm input[type=text], .main-content #contact .contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #f7f7f7a6;
+    box-shadow: #00000052 5px 6px 10px;
+}
+
+.main-content #contact .contactForm input[type=submit] {
+    background: #07c2cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: #00000052 5px 6px 10px;
+}
+
+
+.main-content #contact .contactForm input[type=submit]:hover {
+    background: darkcyan;
+    box-shadow: #00000052 5px 6px 10px;
+}
+
+.main-content #contact .contactInfo .box {
+    width: 100%;
+    box-shadow: #00000052 5px 6px 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 5%;
+    background: #f7f7f7a6;
+}
+
+.main-content #contact .contactInfo .box .icon {
+    float: left;
+    margin-top: 19px;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.main-content #contact .contactInfo .box .text {
+    width: 90%;
+}
+
+.main-content #contact .contactInfo .box .text p {
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.main-content #contact .contactInfo .box .text p {
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.main-content #contact .contactInfo .text .text-small {
+    color: red;
+    font-size: 10px;
+}
+
+.main-content #contact .contactInfo .box .text h3 {
+    padding-top: 10px;
+}
+
+.footer {
+    background: url("../img/footer.jpg") no-repeat;
+    height: 50px;
+    background-size: cover;
+}
+
+.footer p {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#goToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: #07c2cc;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+#goToTop:hover {
+    background: darkcyan;
+}
+
+@media screen and (max-width: 905px) {
+    .main-content {
+        width: 90%;
+    }
+
+    .main-content .education .education-content div {
+        height: 120px;
+    }
+
+    .main-content .education {
+        width: 100%;
+    }
+    .header .main-menu a{
+        width: 85px;
+        font-size: 13px;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-content {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .main-content .content-wrapper .section {
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    .main-content .education .education-content div {
+        height: 120px;
+        font-size: 20px;
+    }
+
+    .main-content .skill .skill-content ul li {
+        width: 50%;
+    }
+
+    .main-content #contact .contactInfo, .main-content .contact .contactForm {
+        font-size: 20px;
+    }
+
+    .main-content #contact .contactInfo, .main-content .contact .contactForm {
+        font-size: 20px;
+    }
+
+    .main-content .content-wrapper .portrait {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px){
+    .header .main-menu a{
+        width: 75px;
+        font-size: 11px;
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main-content {
+        padding: 0;
+    }
+
+    .main-content .languages table {
+        font-size: 13px;
+    }
+
+    .main-content #contact .contactInfo, .main-content #contact .contactForm {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .main-content #contact .contactInfo .box {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
